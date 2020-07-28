@@ -1,0 +1,17 @@
+{
+  "name": "basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "decorators.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-ts": "^5.0.7",
+    "reflect-metadata": "^0.1.13",
+    "typescript": "^3.9.7"
+  }
+}

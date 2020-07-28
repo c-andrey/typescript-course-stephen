@@ -1,0 +1,18 @@
+{
+  "name": "csvparse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --watch 'src/' --exec \"ts-node src/index.ts\" -e ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^13.13.2",
+    "nodemon": "^2.0.3",
+    "ts-node": "^8.9.0",
+    "typescript": "^3.8.3"
+  }
+}

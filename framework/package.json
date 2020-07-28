@@ -1,10 +1,11 @@
 {
-  "name": "markermap",
+  "name": "framework",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start:dev": "webpack --watch",
+    "start:db": "npx json-server -w db.json",
     "lint": "eslint . --ext .ts",
     "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,8 +14,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/cookie-session": "^2.0.40",
-    "@types/express": "^4.17.6",
+    "@types/axios": "^0.14.0",
     "@types/node": "^13.13.0",
     "@types/webpack": "^4.41.12",
     "@typescript-eslint/eslint-plugin": "^2.28.0",
@@ -35,8 +35,7 @@
     "wepack-cli": "0.0.1-security"
   },
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "cookie-session": "^1.4.0",
-    "express": "^4.17.1"
+    "axios": "^0.19.2",
+    "json-server": "^0.16.1"
   }
 }
